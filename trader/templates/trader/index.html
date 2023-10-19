@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% load draw_menu %}
+
+{% block content %}
+    {{ block.super }}
+    <nav>{% draw_menu "main_menu" %}</nav>
+    <h2>You selected the menu with id {{ menu_id }}</h2>
+{% endblock %}
