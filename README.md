@@ -4,7 +4,8 @@ To run this project please follow the steps below:
 
 1.clone this repo
 
-2.create the virtual environment
+2.create the virtual environment and create **_.env_** file for environment variables<br>
+(you can fill the variables by yourself)
 
 3.install the required packages in requirements.txt
 
